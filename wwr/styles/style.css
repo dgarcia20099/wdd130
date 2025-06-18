@@ -217,6 +217,118 @@ h2{
 main section img{
     box-sizing: border-box;
 }
+
+#rivers_content{
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+#rivers_option{
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+#rivers_options_box{
+    grid-column: 3/5;
+    grid-row: 1/2;
+    justify-self: center;
+    z-index: -1;
+}
+.rivers_options_img{
+    width: 100%;
+}
+#rivers_option_msg{
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+#rivers_option_msg h1{
+    text-align: center;
+    color: #BFB6BB;
+    
+}
+.rivers_title{
+    color: #BFB6BB;
+    font-family: caveat, lora, mulish;
+    font-size: 2em;
+    margin-top: 10px;
+}
+#salmon-river{
+    display: grid;
+    grid-template-columns: 1fr, 1fr 1fr;
+    margin-top: 100px;
+}
+#salmon-river-box{
+    grid-row: 2/3;
+    grid-column: 1/3;
+    justify-self: center;
+}
+#salmon-river-msg{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    justify-self: center;
+    color: #BFB6BB;
+    font-family: caveat, lora, mulish;
+    font-size: 2em;
+    margin-top: 10px;
+}
+#salmon-river-text{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    color: #BFB6BB;
+    font-family: roboto, open sans, inter;
+    justify-self: center;
+}
+#utah{
+    display: grid;
+    grid-template-columns: 1fr, 1fr 1fr;
+    margin-top: 100px;
+}
+#utah-box{
+    grid-row: 2/3;
+    grid-column: 1/3;
+    justify-self: center;
+}
+#utah-msg{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    justify-self: center;
+    color: #BFB6BB;
+    font-family: caveat, lora, mulish;
+    font-size: 2em;
+    margin-top: 10px;
+}
+#utah-text{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    color: #BFB6BB;
+    font-family: roboto, open sans, inter;
+    justify-self: center;
+}
+#arizona{
+    display: grid;
+    grid-template-columns: 1fr, 1fr 1fr;
+    margin-top: 100px;
+}
+#arizona-box{
+    grid-row: 2/3;
+    grid-column: 1/3;
+    justify-self: center;
+}
+#arizona-msg{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    justify-self: center;
+    color: #BFB6BB;
+    font-family: caveat, lora, mulish;
+    font-size: 2em;
+    margin-top: 10px;
+}
+#arizona-text{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    color: #BFB6BB;
+    font-family: roboto, open sans, inter;
+    justify-self: center;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
